@@ -9,6 +9,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test"
+
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar"
+            >
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
